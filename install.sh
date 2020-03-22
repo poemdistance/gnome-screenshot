@@ -1,6 +1,6 @@
 #!/bin/bash
 
-meson setup builddir
+meson setup builddir --reconfigure
 cd builddir 
 ninja
 sudo meson install
